@@ -1,0 +1,18 @@
+Overview
+This Python script converts sample questions data into JSON format. It demonstrates how to structure data for representing questions, including their numbers, IDs, texts, options, and solutions, in a JSON file.
+
+How to Use
+Imported Libraries:
+
+Python's built-in json module is used for JSON serialization and deserialization.
+Running the Script:
+
+To run the script, ensure you have Python installed on your system.
+Copy the provided Python script into a Python (.py) file.
+Execute the script using Python interpreter: python script_name.py.
+The script will generate JSON data for the sample questions and print it to the console.
+Understanding the Output:
+
+The output JSON data represents the sample questions in a structured format.
+Each question is represented as a dictionary with keys such as questionNumber, questionId, questionText, options, and solutionText.
+Options for each question are provided as a list of dictionaries with keys optionNumber, optionText, and isCorrect.
